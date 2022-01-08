@@ -1,0 +1,79 @@
+* {
+    font-family: 'Lobster Two';
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    background-color: red;
+    padding: 2rem;
+}
+/* Contenedor pricipal header*/
+header {
+    display: flex;
+    height: 100%;
+    justify-content: space-around;
+}
+
+/*  Contenedor de Icono*/
+.principal {
+    display: flex;
+    justify-content:flex-start;
+    height: 30%;
+
+}
+
+/* Icono de Dark */
+.dark {
+    width: 20%;
+    height: 20%;
+    margin: 1rem;
+}
+
+.dark i {
+    font-size: 2rem;
+    color: #fff;
+}
+
+
+main {
+    display: flex;
+    width: 80%;
+    height: auto;
+    padding: 2rem;
+
+    /* Morphismo */
+    background: rgba( 255, 255, 255, 0.25 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 4px );
+    -webkit-backdrop-filter: blur( 4px );
+    border-radius: 10px;
+}
+
+
+/* Search */
+
+.search {
+
+}
+
+/* *Article */
+
+.resultado {
+    display: flex;
+}
+
+
+.image img {
+    width: 150px;
+    height: 150px;
+}
+
+.otrosResultados img {
+    width: 150px;
+    height: 150px;
+}
